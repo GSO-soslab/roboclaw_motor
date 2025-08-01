@@ -1,0 +1,11 @@
+# /test/roboclaw_motor_driver:
+/**:
+  ros__parameters:
+
+    # control serial: send motor cmd
+    control_device: /dev/ttyUSB6
+    control_baudrate: 115200
+
+    # read serial: get info from motor
+    read_device: /dev/ttyACM0
+    read_baudrate: 115200
