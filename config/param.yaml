@@ -2,10 +2,10 @@
 /**:
   ros__parameters:
 
-    # control serial: send motor cmd
-    control_device: /dev/ttyUSB6
+    # control serial: send motor cmd (/dev/ttyUSB#)
+    control_device: /dev/roboclaw_control
     control_baudrate: 115200
 
-    # read serial: get info from motor
-    read_device: /dev/ttyACM0
+    # read serial: get info from motor (/dev/ttyACM0)
+    read_device: /dev/roboclaw_info
     read_baudrate: 115200
